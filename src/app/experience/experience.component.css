@@ -1,0 +1,107 @@
+.experience {
+    background: linear-gradient(#28283d, #1e1c25);
+    padding: 80px 300px; /* Adjusted top and bottom padding */
+    height: auto;
+}
+
+.boxes {
+    background-color: #1e1c25; /* Set a background color for the boxes */
+    border: solid 1px #439ae2;
+    width: 100%;
+    max-width: 900px; /* Fixed width for the box */
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 15px auto; /* Center the box and add vertical spacing */
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(54, 149, 201, 0.10);
+    padding: 20px; /* Add some padding inside the box */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.box-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.boxinfosys {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-start;
+}
+
+.company-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px; /* Spacing between logo and text */
+    border-radius: 10px;
+}
+
+.company-info {
+    text-align: left;
+}
+
+.companyName {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.companyDate {
+    font-size: 0.9rem;
+    color: rgb(204, 183, 183);
+    margin-bottom: 10px;
+}
+
+.companyDescription {
+    font-size: 1rem;
+    color: rgb(228, 228, 228);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+    .experience {
+        padding: 50px 40px; /* Reduced padding for medium screens */
+    }
+
+    .boxes {
+        padding: 15px; /* Adjusted padding inside boxes for smaller screens */
+    }
+
+    .companyDescription {
+        font-size: 0.9rem;
+    }
+
+    .companyDate {
+        font-size: 0.8rem;
+    }
+
+    .companyName {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .experience {
+        padding: 40px 20px; /* Reduced padding for small screens */
+    }
+
+    .boxes {
+        max-width: 100%; /* Allow full width on small screens */
+        margin: 10px 0; /* Add vertical spacing */
+    }
+
+    .box-content {
+        flex-direction: column; /* Stack logo and text vertically on small screens */
+        align-items: center; /* Center items on small screens */
+        text-align: center;
+    }
+
+    .company-logo {
+        margin: 0 0 15px 0; /* Center the logo on small screens */
+    }
+
+    .company-info {
+        text-align: center; /* Center text on small screens */
+    }
+}

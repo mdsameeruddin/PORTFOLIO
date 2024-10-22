@@ -1,0 +1,14 @@
+<div class="projects" id="projects">
+    <h1 class="text-center text-light" style="padding-top: 80px;">Projects</h1>
+    <div class="projects-container mt-5">
+      <div class="row justify-content-center">
+        <div *ngFor="let project of projects" class="projectbox col-lg-4 col-md-4 col-sm-6">
+          <img [src]="project.imageUrl" class="img-fluids">
+          <h2 class="mt-3" style="font-size: 1.5rem;">{{ project.projectName }}</h2>
+          <p style="font-size: 0.75rem;">{{ project.projectDescription }}</p>
+          <p style="font-size: 0.75rem;">Technologies used: {{ project.technologyUsed }}</p>
+        </div>
+        
+      </div>
+    </div>
+</div>

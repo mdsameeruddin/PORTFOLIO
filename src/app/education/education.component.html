@@ -1,0 +1,20 @@
+<div class='education' id='education'>
+    <h1 class='text-center text-light mt-3'>Education</h1>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <div class="box-contents">
+                <div class="boxcollege">
+                    <div class="college-content">
+                        <img *ngIf="details.collegeLogo" [src]="details.collegeLogo" class="college-logo" alt="College Logo">
+                        <div class="college-details">
+                            <p class='collegeDegree mt-2'>{{ details.collegeDegreeTitle }}</p>
+                            <p class='collegeName mb-0'>{{ details.collegeName }}</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="footer">
+    <div class="social-icons">
+      <a *ngFor="let link of socialLinks" [href]="link.href" [target]="link.target" rel="noopener noreferrer">
+        <mat-icon [svgIcon]="link.icon" class="icon"></mat-icon>
+      </a>
+    </div>
+    <p class="copyright display-4" style="font-size: small; margin-top: 30px;">
+      © 2024 mohd sameer uddin. All rights reserved.
+    </p>
+  </div>
+  
