@@ -2,17 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Portfo</title>
+  <title>Portfolio</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Meta tag for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Google Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.9.55/css/materialdesignicons.min.css">
+
+  <!-- Material Design Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.9.55/css/materialdesignicons.min.css">
+
+  <!-- Additional CSS (Optional, for better control) -->
+  <style>
+    /* Prevent horizontal scrolling on mobile */
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    /* Ensure font sizes are responsive */
+    html {
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      html {
+        font-size: 14px; /* Adjust font size for smaller devices */
+      }
+    }
+
+    @media (max-width: 480px) {
+      html {
+        font-size: 12px; /* Further adjust for very small devices */
+      }
+    }
+  </style>
 </head>
 <body class="mat-typography">
   <app-root></app-root>
+
+  <!-- Add any optional JavaScript or analytics script here -->
 </body>
 </html>
