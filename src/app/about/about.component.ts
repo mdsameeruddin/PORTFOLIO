@@ -10,7 +10,7 @@ export class AboutComponent {
 
   openResume(event: MouseEvent) {
     event.stopPropagation();  // Prevents the default action
-    window.open('https://drive.google.com/file/d/1BxXiTx-o4tyaBYChBOxJbM2kfpztuoA7/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/12l9BFBlH_1QEsCqUreDjz5Q4xaXru55j/view?usp=drive_link', '_blank');
     
   }
 }

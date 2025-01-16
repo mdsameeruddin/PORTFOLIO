@@ -12,7 +12,7 @@ export class EducationComponent {
     return [
       {
         collegeLogo: "/assets/resume/IMG_20240709_225843.jpg",
-        collegeName: "GURU NANAK DEV ENGINEERINFG COLLEGE",
+        collegeName: "GURU NANAK DEV ENGINEERING COLLEGE [VTU]",
         collegeDegreeTitle: "Bachelor of Engineering"
       }
     ];
